@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/padding_border"
+    android:orientation="vertical"
+    android:background="@color/primary_dark"
+    style="@style/ThemeDialog">
+    <TextView
+        android:text="@string/dl_titulo"
+        style="@style/txtDatos"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/dl_imagenes"
+        style="@style/txtEtiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Imágenes con licencia Creative Commons\n
+        FUENTE: OpenPhoto, Flick, 500px,..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="@string/dl_iconos"
+        style="@style/txtEtiqueta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:text="Iconos con licencia Creative Commons\n
+        FUENTE: Open Icon Library, MrIcons,..."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btnAceptar"
+        android:text="@string/boton_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/padding_border"/>
+</LinearLayout>

@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">A-DOG-TAG by Gand</string>
+    <string name="title_perro_detail">Detalles del Perro</string>
+
+    <string name="action_settings">Acciones</string>
+    <string name="navigation_drawer_open">Abrir</string>
+    <string name="navigation_drawer_close">Cerrar</string>
+    <string name="autor">Juan A. Gándara</string>
+    <string name="centro">I.E.S Murgi 2º DAM</string>
+    <string name="boton_dialog">Aceptar</string>
+    <string name="dl_titulo">Licencias:</string>
+    <string name="dl_imagenes">IMÁGENES:</string>
+    <string name="dl_iconos">ICONOS:</string>
+    <string name="dt_etNombre">Nombre:</string>
+    <string name="dt_etRaza">Raza:</string>
+    <string name="dt_etSexo">Sexo:</string>
+    <string name="dt_etEdad">Edad:</string>
+    <string name="dt_cbVacuna">Vacunas</string>
+    <string name="dt_etDetalles">Detalles:</string>
+    <string name="menu_grandes">Grandes</string>
+    <string name="menu_medianos">Medianos</string>
+    <string name="menu_peque">Pequeños</string>
+    <string name="menu_todos">Todos</string>
+    <string name="menu_creditos">Creditos</string>
+    <string name="menu_autor">Autor</string>
+    <string name="menu_licencia">Licencias</string>
+</resources>

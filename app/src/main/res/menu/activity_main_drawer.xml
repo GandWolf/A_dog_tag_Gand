@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_grande"
+            android:icon="@drawable/ic_grande"
+            android:title="@string/menu_grandes" />
+        <item
+            android:id="@+id/nav_medio"
+            android:icon="@drawable/ic_medio"
+            android:title="@string/menu_medianos" />
+        <item
+            android:id="@+id/nav_peque"
+            android:icon="@drawable/ic_peque"
+            android:title="@string/menu_peque" />
+        <item
+            android:id="@+id/nav_todo"
+            android:icon="@drawable/ic_dog_paw"
+            android:title="@string/menu_todos" />
+    </group>
+
+    <item android:title="@string/menu_creditos">
+        <menu>
+            <item
+                android:id="@+id/nav_autor"
+                android:icon="@drawable/ic_student"
+                android:title="@string/menu_autor" />
+            <item
+                android:id="@+id/nav_licencias"
+                android:icon="@drawable/ic_license"
+                android:title="@string/menu_licencia" />
+        </menu>
+    </item>
+
+</menu>

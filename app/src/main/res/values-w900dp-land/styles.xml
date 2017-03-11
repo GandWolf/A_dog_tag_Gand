@@ -1,0 +1,13 @@
+<resources>
+
+    <style name="gridPerretes">
+        <item name="android:numColumns">2</item>
+        <item name="android:padding">6dp</item>
+        <item name="android:verticalSpacing">3dp</item>
+        <item name="android:horizontalSpacing">3dp</item>
+        <item name="android:stretchMode">columnWidth</item>
+        <item name="android:gravity">center</item>
+        <item name="android:background">@color/primary</item>
+    </style>
+
+</resources>
